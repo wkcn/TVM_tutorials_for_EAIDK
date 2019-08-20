@@ -5,3 +5,4 @@ There are some tutorials, which come from [TVM](http://github.com/dmlc/tvm), and
 ## Tutorials 
 - [Cross Compilation and RPC](./cross_compilation_and_rpc.py)
 - [Deploy model on EAIDK](./deploy_model_on_eaidk.py)
+- [Tune Relay ARM](./tune_relay_arm.py)
