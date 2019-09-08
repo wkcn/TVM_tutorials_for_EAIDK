@@ -50,5 +50,9 @@ nmcli device wifi list
 sudo nmcli device wifi connect <WIFI名称> password <WIFI密码>
 
 经过配置后，开发板连接上了WIFI，在局域网内可以使用ssh进行连接。
+可以通过设置固定IP或者在WIFI管理界面中查看的方式，获得开发板的IP地址。
+通过命令：ssh openailab@<IP地址> ，如ssh openailab@192.168.43.33  (开发板在我的局域网下的IP为192.168.43.33) 进行连接，密码为openailab
+
+
 
 # 
